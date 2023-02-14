@@ -1,0 +1,472 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.108:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:52:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:52:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:53:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:53:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Status request successfull
+DEBUG:app:DEBUG message
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:53:31] "GET /healthz HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:53:36] "GET /metrics HTTP/1.1" 200 -
+INFO:app:Status request successfull
+DEBUG:app:DEBUG message
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:53:44] "GET /healthz HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:53:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:53:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:53:52] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:54:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:54:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:55:45] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:55:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:55:50] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:55:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:56:57] "GET /3 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:56:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:57:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:57:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:57:13] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:57:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:58:39] "[33mGET /90 HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:58:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:58:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 12:58:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.108:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:10:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:10:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:10:26] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:10:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:10:49] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:10:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:11:39] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:13:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:13:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:13:26] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:13:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:16:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:16:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:17:02] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:17:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:17:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:17:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:17:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:17:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:18:01] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:18:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:19:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:19:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:19:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:19:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:20:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:20:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The page is retrieved
+INFO:app:The page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:20:11] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:20:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:20:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:20:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The page is retrieved
+INFO:app:The page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:20:19] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:20:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:16] "GET /3 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:21] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The page is not exist!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:38] "[33mGET /90 HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:21:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:22:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:22:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:27:27] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:27:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:27:35] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:27:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:27:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:27:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:27:42] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:27:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:28:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:28:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:28:16] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:28:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:28:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:28:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The Article 
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:28:31] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:28:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:29:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:29:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:<sqlite3.Row object at 0x7f377ef317e0>
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:29:43] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:29:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:31:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:31:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:2020 CNCF Annual Report
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:31:50] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:31:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.108:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:33:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:33:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:33:08] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:33:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:33:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:33:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:33:15] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:33:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:35:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:35:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article 2020 CNCF Annual Reportis retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:35:33] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:35:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:35:57] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:35:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article 2020 CNCF Annual Report is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:08] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article Kubernetes v1.20 Release Notes is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:14] "GET /3 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Status request successfull
+DEBUG:app:DEBUG message
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:42] "GET /healthz HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:36:57] "GET /metrics HTTP/1.1" 200 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:38:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:38:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:38:06] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:38:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:38:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:38:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article 2020 CNCF Annual Report is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:38:13] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:38:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:40:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:40:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:40:53] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:40:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The new articleEnable Logging is created
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:42:53] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:42:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:42:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article Enable Logging is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:43:06] "GET /7 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:43:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:44:34] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:44:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The new article Getting Started is created
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:45:16] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:45:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:45:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article Getting Started is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:45:37] "GET /8 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:45:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:45:42] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 13:45:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-718-920
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.108:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:34:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:34:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:39:17] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:39:17] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:39:17] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:39:17] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:39:17] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:39:17] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:41:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:41:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:41:52] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:41:52] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:41:52] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:41:52] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:41:52] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:43:40] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:43:41] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:43:41] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:43:41] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:43:41] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:45:08] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:45:08] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:45:08] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:45:09] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:45:09] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:45:09] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:46:10] "GET /metrics HTTP/1.1" 200 -
+INFO:app:The article 2020 CNCF Annual Report is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:46:14] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:46:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:46:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:46:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Status request successfull
+DEBUG:app:DEBUG message
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:46:21] "GET /healthz HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:49:59] "GET /metrics HTTP/1.1" 200 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Status request successfull
+DEBUG:app:DEBUG message
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:35] "GET /healthz HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:40] "GET /metrics HTTP/1.1" 200 -
+INFO:app:The article 2020 CNCF Annual Report is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:44] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:51] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 21:50:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.108:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:14:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:14:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article 2020 CNCF Annual Report is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:14:50] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:14:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:14:54] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:14:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Status request successfull
+DEBUG:app:DEBUG message
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:15:00] "GET /healthz HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:15:06] "GET /metrics HTTP/1.1" 200 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:15:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:15:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:15:34] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:15:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/arli/arl_project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-130-218
+INFO:app:The new post page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:17:15] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:17:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The new post page is retrieved
+INFO:app:The new article Docker Walkthrough is created
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:17:45] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:17:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:17:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article Docker Walkthrough is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:17:59] "GET /9 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [10/Feb/2023 22:17:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.2.15:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-558-443
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 08:30:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 08:30:42] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 08:30:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:The article 2020 CNCF Annual Report is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 08:30:48] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 08:30:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.2.15:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-558-443
+INFO:app:The main page is retrieved
+INFO:werkzeug:127.0.0.1 - - [11/Feb/2023 08:39:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Feb/2023 08:39:39] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Feb/2023 08:39:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 08:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 08:39:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.2.15:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-558-443
+INFO:app:The main page is retrieved
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article KubeCon + CloudNativeCon 2021 is retrieved!!
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:05] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The About Us page is retrieved
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:08] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:13] "[33mGET /aa HTTP/1.1[0m" 404 -
+INFO:app:The page is not exist!!
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:34] "[33mGET /100 HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.103 - - [11/Feb/2023 10:05:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

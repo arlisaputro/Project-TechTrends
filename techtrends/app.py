@@ -11,20 +11,32 @@ def get_db_connection():
     connection.row_factory = sqlite3.Row
     return connection
 
+#====start query get title===========
 # Function to get a post using its ID
 def get_post(post_id):   
     connection = get_db_connection()
-    post = connection.execute('SELECT * FROM posts WHERE id = ?',
-                        (post_id,)).fetchone()
+    post = connection.execute('SELECT * FROM posts WHERE id = ?',(post_id,)).fetchone()
     connection.close()
     return post
+#====end query get title===========
+
+#====start query get metric===========
+# Function to get count connection
+def get_count_connectionne():   
+    connection = get_db_connection()
+    gce = connection.execute("SELECT COUNT(*) FROM sqlite_master WHERE type='table'")
+    gcene = gce.fetchone()[0]
+    connection.close()
+    return gcene
 
 # Function to get count article 
 def get_count_article():   
     connection = get_db_connection()
-    gca = connection.execute('SELECT count(id) as ca FROM posts').fetchone()
+    gca = connection.execute("SELECT COUNT(*) FROM posts")
+    gcane = gca.fetchone()[0]
     connection.close()
-    return gca
+    return gcane
+#====end query get metric===========
 
 # Define the Flask application
 app = Flask(__name__)
@@ -103,7 +115,7 @@ def status():
              mimetype='application/json'
     )
     #arl_project_3 stream logs to a file
-    app.logger.info('Status request successfull')
+    app.logger.info('Status request /healthz successfull')
     app.logger.debug('DEBUG message')
     return response
 #===============================================================
@@ -112,15 +124,19 @@ def status():
 #arl_project_2 : Define /metrics response
 @app.route('/metrics')
 def metrics():
-    gca = get_count_article() 
-    response = app.response_class(
-             response=json.dumps({"db_connection_count": 1, "post_count": 8}),
-             status=200,
-             mimetype='application/json'
-    )
+    # execute the queries to get the required metrics
+    gacene = get_count_article()
+    gecene = get_count_connectionne()
+    
+    # create the JSON response
+    response = {'db_connection_count': gecene, 'post_count': gacene}
+    
     #arl_project_3 stream logs to a file
-    app.logger.info('Metrics request successfull')
-    return response
+    app.logger.info('Status request /metrics successfull')
+    app.logger.debug('DEBUG message')
+    
+    # return the JSON response with a 200 status code
+    return jsonify(response),200
 #===============================================================
 
 

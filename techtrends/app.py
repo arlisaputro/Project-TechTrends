@@ -14,10 +14,11 @@ def get_db_connection():
 #====start query get title===========
 # Function to get a post using its ID
 def get_post(post_id):   
-    connection = get_db_connection()
-    post = connection.execute('SELECT * FROM posts WHERE id = ?',(post_id,)).fetchone()
-    connection.close()
-    return post
+     connection = get_db_connection()
+     post = connection.execute('SELECT * FROM posts WHERE id = ?',(post_id,)).fetchone()
+     connection.close()
+     return post
+
 #====end query get title===========
 
 #====start query get metric===========

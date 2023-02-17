@@ -17,11 +17,11 @@ resources:
     memory: 128Mi
   ports:
     - containerPort: 4111         
-    livenessProbe:
-      httpGet:
+  livenessProbe:
+    httpGet:
         path: /healthz
         port: 3111
-    readinessProbe:
+  readinessProbe:
       httpGet:
         path: /healthz
         port: 3111

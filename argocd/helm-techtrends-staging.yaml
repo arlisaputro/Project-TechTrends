@@ -13,6 +13,6 @@ spec:
     helm:
       valueFiles:
       - values-staging.yaml
-    path: /helm/
+    path: helm
     repoURL: https://github.com/arlisaputro/Project-TechTrends
     targetRevision: HEAD

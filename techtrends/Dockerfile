@@ -1,9 +1,16 @@
 FROM python:3.10
 LABEL maintainer="Arliadinda Danusaputro"
 
-COPY ./techtrends /techtrends2
-WORKDIR /techtrends2
-RUN python3 -m pip install -r /techtrends2/requirements.txt
+COPY ./ ./techtrends
+WORKDIR ./techtrends
+# install requirements 
+RUN python3 -m pip install -r requirements.txt
+
+# pre define init db
+CMD [ "python3","init_db.py" ]
+
+# expose port 3111
+EXPOSE 3111
 
 # command to run on container start
-CMD [ "python3","/techtrends2/app.py" ]
+CMD [ "python3","app.py" ]

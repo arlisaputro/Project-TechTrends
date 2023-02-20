@@ -45,35 +45,3 @@ root@ubdek:/home/arli/Documents/arl_project/techtrends# docker logs 8157e92c4130
 [2023-02-13 05:05:03,551] INFO in app: The article Kubernetes v1.20 Release Notes is retrieved!!
 172.17.0.1 - - [13/Feb/2023 05:05:03] "GET /3 HTTP/1.1" 200 -
 172.17.0.1 - - [13/Feb/2023 05:05:03] "GET /static/css/main.css HTTP/1.1" 304 -
-
-
---------------different VM (public vm - vps)-------------------
-root@arlubda:/home/arli/arl_project/techtrends# docker logs 74039010bbec
- * Serving Flask app 'app' (lazy loading)
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: on
- * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
- * Running on http://172.17.0.2:3111/ (Press CTRL+C to quit)
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 265-136-662
-[2023-02-13 09:00:14,273] INFO in app: The main page is retrieved
-163.116.193.145 - - [13/Feb/2023 09:00:14] "GET / HTTP/1.1" 200 -
-163.116.193.145 - - [13/Feb/2023 09:00:14] "GET /static/css/main.css HTTP/1.1" 200 -
-[2023-02-13 09:00:17,174] INFO in app: The article KubeCon + CloudNativeCon 2021 is retrieved!!
-163.116.193.145 - - [13/Feb/2023 09:00:17] "GET /2 HTTP/1.1" 200 -
-163.116.193.145 - - [13/Feb/2023 09:00:17] "GET /static/css/main.css HTTP/1.1" 304 -
-[2023-02-13 09:00:18,574] INFO in app: The About Us page is retrieved
-163.116.193.145 - - [13/Feb/2023 09:00:18] "GET /about HTTP/1.1" 200 -
-163.116.193.145 - - [13/Feb/2023 09:00:18] "GET /static/css/main.css HTTP/1.1" 304 -
-[2023-02-13 09:08:56,094] INFO in app: Status request successfull
-[2023-02-13 09:08:56,095] DEBUG in app: DEBUG message
-163.116.193.145 - - [13/Feb/2023 09:08:56] "GET /healthz HTTP/1.1" 200 -
-[2023-02-13 09:09:02,068] INFO in app: Metrics request successfull
-163.116.193.145 - - [13/Feb/2023 09:09:02] "GET /metrics HTTP/1.1" 200 -
-[2023-02-13 09:09:09,211] INFO in app: The article Kubernetes v1.20 Release Notes is retrieved!!
-163.116.193.145 - - [13/Feb/2023 09:09:09] "GET /3 HTTP/1.1" 200 -
-163.116.193.145 - - [13/Feb/2023 09:09:09] "GET /static/css/main.css HTTP/1.1" 304 -

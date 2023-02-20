@@ -1,8 +1,10 @@
 import sqlite3
 import logging
+import sys
 
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
+
 
 # Function to get a database connection.
 # This function connects to database with the name `database.db`
@@ -117,7 +119,8 @@ def status():
     )
     #arl_project_3 stream logs to a file
     app.logger.info('Status request /healthz successfull')
-    app.logger.debug('DEBUG message')
+    
+
     return response
 #===============================================================
 
@@ -145,6 +148,6 @@ def metrics():
 if __name__ == "__main__":
    #arl_project_3 stream logs to a file
    #app.run(debug=True)
-   #logging.basicConfig(filename='app.log',level=logging.DEBUG) 
-   
+   logging.basicConfig(filename='app.log',level=logging.DEBUG) 
+
    app.run(host='0.0.0.0', port='3111', debug=True) 
